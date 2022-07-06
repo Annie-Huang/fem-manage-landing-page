@@ -13,3 +13,4 @@ Ok to proceed? (y) y
 √ Select a framework: » vanilla
 √ Select a variant: » vanilla
 
+PS C:\react\fem-manage-landing-page> npm install
