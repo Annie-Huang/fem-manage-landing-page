@@ -1,0 +1,15 @@
+Build a responsive website with HTML & CSS | Part one: Analyzing the project and setting the stage
+(https://www.youtube.com/watch?v=h3bTwCqX4ns)
+
+https://www.frontendmentor.io/challenges/manage-landing-page-SLXqC6P5/hub/manage-landing-page-Geb27qGs8F
+https://github.com/Annie-Huang/fem-manage-landing-page
+
+-------------------------------------------------------------------
+PS C:\react> npm create vite@latest
+Need to install the following packages:
+  create-vite@latest
+Ok to proceed? (y) y
+√ Project name: ... fem-manage-landing-page
+√ Select a framework: » vanilla
+√ Select a variant: » vanilla
+
