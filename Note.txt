@@ -4,7 +4,10 @@ Build a responsive website with HTML & CSS | Part one: Analyzing the project and
 https://www.frontendmentor.io/challenges/manage-landing-page-SLXqC6P5/hub/manage-landing-page-Geb27qGs8F
 https://github.com/Annie-Huang/fem-manage-landing-page
 
+https://gist.github.com/Asjas/4b0736108d56197fce0ec9068145b421 (google search for 'andy bell css reset')
+
 -------------------------------------------------------------------
+
 PS C:\react> npm create vite@latest
 Need to install the following packages:
   create-vite@latest
