@@ -14,3 +14,4 @@ Ok to proceed? (y) y
 √ Select a variant: » vanilla
 
 PS C:\react\fem-manage-landing-page> npm install
+PS C:\react\fem-manage-landing-page> npm run dev
