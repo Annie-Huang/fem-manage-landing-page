@@ -298,3 +298,8 @@ body {
     display: none;
   }
 }
+
+.opened {
+  display: block;
+  position: fixed;
+}
