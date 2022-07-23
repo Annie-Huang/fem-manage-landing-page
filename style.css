@@ -289,7 +289,7 @@ body {
   .primary-navigation {
     display: none;
 
-    position: fixed;
+    position: absolute;
     padding: var(--size-700);
     /* auto is default values, bottom value for auto means 0. the container will just keep the same size of it's original value */
     inset: 7rem var(--size-400) auto;
