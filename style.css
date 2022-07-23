@@ -268,6 +268,14 @@ body {
 
 /* navigation */
 
+.primary-header {
+  margin-top: var(--size-700);
+}
+.nav-wrapper {
+  display: flex;
+  align-items: center;
+}
+
 .mobile-nav-toggle {
   cursor: pointer;
   background: transparent;
