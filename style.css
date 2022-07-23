@@ -289,7 +289,7 @@ body {
   .primary-navigation {
     display: none;
 
-    position: absolute;
+    position: fixed;
     padding: var(--size-700);
     /* auto is default values, bottom value for auto means 0. the container will just keep the same size of it's original value */
     inset: 7rem var(--size-400) auto;
@@ -329,6 +329,10 @@ body {
 
   .mobile-nav-toggle {
     display: block;
+    position: fixed; /* I think it should be absolute, otherwise the hamburger button stick when the page scroll down */
+    top: var(--size-600);
+    right: var(--size-400);
+
     cursor: pointer;
     background: transparent;
     border: 0;
