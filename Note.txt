@@ -1,14 +1,18 @@
-Build a responsive website with HTML & CSS | Part one: Analyzing the project and setting the stage
-(https://www.youtube.com/watch?v=h3bTwCqX4ns)
+Build a responsive website with HTML & CSS | Part one: Analyzing the project and setting the stage (https://www.youtube.com/watch?v=h3bTwCqX4ns)
+Build a responsive website with HTML & CSS | Part two: Writing the HTML
+Build a responsive website with HTML & CSS | Part three: General styling
+Build a responsive website with HTML & CSS | Part Four: The navigation
 
 https://www.frontendmentor.io/challenges/manage-landing-page-SLXqC6P5/hub/manage-landing-page-Geb27qGs8F
 https://github.com/kevin-powell/fem-manage-landing-page-part-1
 https://github.com/kevin-powell/fem-manage-landing-page-part-2
 https://github.com/kevin-powell/fem-manage-landing-page-part-3
+https://github.com/kevin-powell/fem-manage-landing-page-part-6
 https://github.com/Annie-Huang/fem-manage-landing-page
 
 https://gist.github.com/Asjas/4b0736108d56197fce0ec9068145b421 (google search for 'andy bell css reset')
 https://fonts.google.com/?query=be+Vietnam
+https://a11y-guidelines.orange.com/en/web/components-examples/accessible-hiding/
 
 -------------------------------------------------------------------
 
