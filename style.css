@@ -265,3 +265,16 @@ body {
   background-color: var(--clr-neutral-100);
   color: var(--clr-accent-300);
 }
+
+/* navigation */
+
+.mobile-nav-toggle {
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  padding: 0.5em;
+}
+
+.mobile-nav-toggle .icon-close {
+  display: none;
+}
