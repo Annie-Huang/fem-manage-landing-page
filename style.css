@@ -299,7 +299,7 @@ body {
   }
 
   /* cannot use .primary-navigation:after because .primary-navigation has position absolute and so the overlay cannot cover the full page */
-  .primary-header[data-overlay] {
+  .primary-header[data-overlay]::before {
     content: '';
     position: fixed;
     inset: 0;
