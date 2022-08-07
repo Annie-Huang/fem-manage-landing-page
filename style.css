@@ -257,6 +257,21 @@ p[data-width='wide'] {
   }
 }
 
+/* cta */
+.cta {
+  position: relative;
+  isolation: isolate;
+}
+.cta::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  background-image: url('images/bg-tablet-pattern.svg');
+  background-repeat: no-repeat;
+  opacity: 0.1;
+}
+
 /* Utility classes */
 
 .visually-hidden {
@@ -280,20 +295,28 @@ p[data-width='wide'] {
   margin-inline: auto;
 }
 
-.flow * + * {
-  margin-top: var(--flow-spacer, 3em);
-}
-
 .even-columns {
   display: grid;
   gap: 1rem;
 }
-
 @media (min-width: 50em) {
   .even-columns {
     grid-auto-flow: column;
     grid-auto-columns: 1fr;
   }
+}
+
+.vertical-align-center {
+  align-items: center;
+}
+
+.justify-self-end {
+  justify-self: end;
+}
+
+/*.flow * + * {*/ /* I personally prefer this */
+:where(.flow :not(:first-child)) {
+  margin-top: var(--flow-spacer, 3em);
 }
 
 .text-primary-400 {

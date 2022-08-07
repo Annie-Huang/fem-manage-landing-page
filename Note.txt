@@ -3,6 +3,7 @@ Build a responsive website with HTML & CSS | Part two: Writing the HTML
 Build a responsive website with HTML & CSS | Part three: General styling
 Build a responsive website with HTML & CSS | Part Four: The navigation
 Build a responsive website with HTML & CSS | Part five: Spacing and stuff
+Build a responsive website with HTML & CSS | Part six: CTA
 
 https://www.frontendmentor.io/challenges/manage-landing-page-SLXqC6P5/hub/manage-landing-page-Geb27qGs8F
 https://github.com/kevin-powell/fem-manage-landing-page-part-1
