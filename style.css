@@ -281,10 +281,11 @@ p[data-width='wide'] {
 .primary-footer-wrapper > :nth-child(3) {
   grid-area: form;
 }
-
-.primary-footer .even-columns > * {
-  outline: 2px solid red;
-  /*margin-inline: auto;*/
+@media (max-width: 50em) {
+  .primary-footer-wrapper > * {
+    /*outline: 2px solid red;*/
+    margin-inline: auto;
+  }
 }
 
 /* footer navigation */
