@@ -258,6 +258,11 @@ p[data-width='wide'] {
 }
 
 /* footer navigation */
+.primary-footer {
+  --logo-color: var(--clr-neutral-100);
+}
+
+/* footer navigation */
 .footer-nav {
   columns: 2;
 }
