@@ -16,6 +16,7 @@ https://github.com/Annie-Huang/fem-manage-landing-page
 https://gist.github.com/Asjas/4b0736108d56197fce0ec9068145b421 (google search for 'andy bell css reset')
 https://fonts.google.com/?query=be+Vietnam
 https://a11y-guidelines.orange.com/en/web/components-examples/accessible-hiding/
+https://svgsprit.es/
 
 -------------------------------------------------------------------
 
