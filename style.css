@@ -262,6 +262,26 @@ p[data-width='wide'] {
   --logo-color: var(--clr-neutral-100);
 }
 
+.primary-footer-wrapper {
+  display: grid;
+  gap: var(--size-700);
+  grid-template-areas: 'form' 'nav' 'logo-social';
+}
+.primary-footer-wrapper > :nth-child(1) {
+  grid-area: logo-social;
+}
+.primary-footer-wrapper > :nth-child(2) {
+  grid-area: nav;
+}
+.primary-footer-wrapper > :nth-child(3) {
+  grid-area: form;
+}
+
+.primary-footer .even-columns > * {
+  outline: 2px solid red;
+  /*margin-inline: auto;*/
+}
+
 /* footer navigation */
 .footer-nav {
   columns: 2;
