@@ -284,6 +284,9 @@ p[data-width='wide'] {
 }
 .primary-footer-form {
   grid-area: form;
+
+  display: grid;
+  align-content: space-between;
 }
 .primary-footer-form form {
   display: flex;
