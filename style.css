@@ -379,6 +379,8 @@ input:where([type='text'], [type='email']) {
 /* numbered items */
 .numbered-items {
   counter-reset: count; /* Set a counter named 'count', and its initial value is 0. */
+  width: fit-content;
+  margin-inline: auto;
 }
 .numbered-items li {
   counter-increment: count;
