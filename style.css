@@ -385,6 +385,8 @@ input:where([type='text'], [type='email']) {
 }
 .numbered-items div {
   display: grid;
+  align-items: center;
+  column-gap: var(--size-400);
   grid-template-columns: min-content 1fr;
 }
 .numbered-items p {
