@@ -423,6 +423,8 @@ input:where([type='text'], [type='email']) {
     border-radius: 100vw 0 0 100vw;
     grid-column: 1 / -1;
     grid-row: 1 / 2;
+    /* Very smart way to fill up the right padding, and box-shadow will not cause overflow*/
+    box-shadow: 5em 0 0 black;
     background: orange;
   }
 }
