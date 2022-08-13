@@ -5,6 +5,7 @@ Build a responsive website with HTML & CSS | Part Four: The navigation
 Build a responsive website with HTML & CSS | Part five: Spacing and stuff
 Build a responsive website with HTML & CSS | Part six: CTA
 Build a responsive website with HTML & CSS | Part seven: the footer
+Build a responsive website with HTML & CSS | Part eight: Numbered list
 
 https://www.frontendmentor.io/challenges/manage-landing-page-SLXqC6P5/hub/manage-landing-page-Geb27qGs8F
 https://github.com/kevin-powell/fem-manage-landing-page-part-1
@@ -17,6 +18,7 @@ https://gist.github.com/Asjas/4b0736108d56197fce0ec9068145b421 (google search fo
 https://fonts.google.com/?query=be+Vietnam
 https://a11y-guidelines.orange.com/en/web/components-examples/accessible-hiding/
 https://svgsprit.es/
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Counter_Styles/Using_CSS_counters
 
 -------------------------------------------------------------------
 
