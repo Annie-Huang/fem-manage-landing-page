@@ -420,7 +420,7 @@ input:where([type='text'], [type='email']) {
     content: '';
     display: block;
     z-index: -1;
-    border-radius: 100vw;
+    border-radius: 100vw 0 0 100vw;
     grid-column: 1 / -1;
     grid-row: 1 / 2;
     background: orange;
@@ -450,9 +450,9 @@ input:where([type='text'], [type='email']) {
 
 .container {
   --max-width: 1110px;
-  --padding: 1rem;
+  --container-padding: 1rem;
 
-  width: min(var(--max-width), 100% - (var(--padding) * 2));
+  width: min(var(--max-width), 100% - (var(--container-padding) * 2));
   /* inline means left and right */
   margin-inline: auto;
 }
