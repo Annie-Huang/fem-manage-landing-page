@@ -417,6 +417,7 @@ input:where([type='text'], [type='email']) {
 }
 @media (max-width: 30em) {
   .numbered-items div::after {
+    --bg: var(--clr-accent-100);
     content: '';
     display: block;
     z-index: -1;
@@ -424,8 +425,8 @@ input:where([type='text'], [type='email']) {
     grid-column: 1 / -1;
     grid-row: 1 / 2;
     /* Very smart way to fill up the right padding, and box-shadow will not cause overflow*/
-    box-shadow: 5em 0 0 black;
-    background: orange;
+    box-shadow: 5em 0 0 var(--bg);
+    background: var(--bg);
   }
 }
 
