@@ -388,6 +388,18 @@ input:where([type='text'], [type='email']) {
   align-items: center;
   column-gap: var(--size-400);
   grid-template-columns: min-content 1fr;
+
+  position: relative;
+}
+.numbered-items__title::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  border-radius: 100vw;
+  inset: 0 -100vw 0 0;
+  grid-column: 1 / -1;
+  grid-row: 1 / 2;
+  background: orange;
 }
 .numbered-items__body {
   grid-column: 1 / -1;
