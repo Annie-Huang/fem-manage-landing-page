@@ -389,7 +389,7 @@ input:where([type='text'], [type='email']) {
   column-gap: var(--size-400);
   grid-template-columns: min-content 1fr;
 }
-.numbered-items p {
+.numbered-items__body {
   grid-column: 1 / -1;
 }
 .numbered-items div::before {
@@ -403,7 +403,7 @@ input:where([type='text'], [type='email']) {
 
 @media (min-width: 30em) {
   /* a different breakpoint makes the big mobile size looks better (still occupy 1 column). When it becomes really small then occupy two columns */
-  .numbered-items p {
+  .numbered-items__body {
     grid-column: 2 / -1;
   }
 }
