@@ -401,6 +401,13 @@ input:where([type='text'], [type='email']) {
   border-radius: 100vw;
 }
 
+@media (min-width: 30em) {
+  /* a different breakpoint makes the big mobile size looks better (still occupy 1 column). When it becomes really small then occupy two columns */
+  .numbered-items p {
+    grid-column: 2 / -1;
+  }
+}
+
 /* Utility classes */
 
 .visually-hidden {
