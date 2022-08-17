@@ -13,6 +13,8 @@ https://github.com/kevin-powell/fem-manage-landing-page-part-1
 https://github.com/kevin-powell/fem-manage-landing-page-part-2
 https://github.com/kevin-powell/fem-manage-landing-page-part-3
 https://github.com/kevin-powell/fem-manage-landing-page-part-6
+https://github.com/kevin-powell/fem-manage-landing-page-part-8
+https://github.com/kevin-powell/fem-manage-landing-page-part-9
 https://github.com/Annie-Huang/fem-manage-landing-page
 
 https://gist.github.com/Asjas/4b0736108d56197fce0ec9068145b421 (google search for 'andy bell css reset')
