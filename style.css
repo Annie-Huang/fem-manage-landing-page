@@ -447,10 +447,19 @@ input:where([type='text'], [type='email']) {
 }
 
 .slider > * {
+  position: relative;
   width: 100%;
   flex: 0 0 auto;
   border-radius: var(--size-300);
   background: var(--clr-neutral-200);
+}
+
+.slider img {
+  width: var(--size-800);
+  position: absolute;
+  inset: 0;
+  margin-inline: auto;
+  transform: translateY(-50%);
 }
 
 /* Utility classes */
