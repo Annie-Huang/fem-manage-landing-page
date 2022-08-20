@@ -503,6 +503,9 @@ input:where([type='text'], [type='email']) {
   height: 100%;
   border-radius: 100%;
 }
+.a11y-slider-dots li button.active {
+  background: var(--clr-accent-400);
+}
 
 /* Utility classes */
 

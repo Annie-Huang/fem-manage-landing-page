@@ -16,6 +16,7 @@ const slider = new A11YSlider(document.querySelector('.slider'), {
   adaptiveHeight: false,
   dots: true,
   centerMode: true,
+  arrows: false,
   response: {
     480: {
       dots: false, // dots enabled 480px and up
