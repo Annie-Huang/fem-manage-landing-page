@@ -445,11 +445,13 @@ input:where([type='text'], [type='email']) {
   display: flex;
   gap: var(--size-600);
   list-style: none;
+  padding-inline: var(--container-padding);
 }
-
+.a11y-slider-container {
+  margin-block: var(--size-700);
+}
 .slider > * {
   position: relative;
-  /*width: 100%;*/
   flex: 0 0 auto;
   width: 100%;
 }
@@ -461,7 +463,7 @@ input:where([type='text'], [type='email']) {
 }
 @media (min-width: 50em) {
   .slider > * {
-    width: 37%;
+    width: 35%;
   }
 }
 
