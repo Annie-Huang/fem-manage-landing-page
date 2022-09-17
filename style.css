@@ -517,6 +517,13 @@ input:where([type='text'], [type='email']) {
 
 /* image with blob bg */
 
+@media (max-width: 50em) {
+  .hero__image {
+    /*position: relative;*/
+    order: -1;
+  }
+}
+
 .hero__image::before {
   content: '';
   position: absolute;
