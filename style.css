@@ -84,6 +84,7 @@ html:focus-within {
 html,
 body {
   height: 100%;
+  overflow-x: hidden; /* this is to fix the sales-points overflow problem for the background image */
 }
 
 /* Set core body defaults */
@@ -526,7 +527,7 @@ input:where([type='text'], [type='email']) {
   background: var(--clr-accent-400);
 }
 
-/* image with blob bg */
+/* hero */
 
 @media (max-width: 47em) {
   .hero__image {
@@ -554,6 +555,20 @@ input:where([type='text'], [type='email']) {
   .hero__image::before {
     width: 45%;
   }
+}
+
+/* sales points */
+.sales-points {
+  position: relative;
+}
+
+.sales-points::before {
+  content: url('images/bg-tablet-pattern.svg');
+  zoom: 30%;
+  position: absolute;
+  z-index: -1;
+  left: 70%;
+  width: 100px;
 }
 
 /* Utility classes */
