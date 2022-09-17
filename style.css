@@ -211,11 +211,15 @@ p[data-width='wide'] {
 }
 
 @media (max-width: 47em) {
+  .primary-header[data-overlay] {
+    position: relative;
+    z-index: 999;
+  }
+
   .primary-navigation {
     display: none;
 
     position: fixed;
-    z-index: 999;
     padding: var(--size-700);
     /* auto is default values, bottom value for auto means 0. the container will just keep the same size of it's original value */
     inset: 7rem var(--size-400) auto;
