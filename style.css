@@ -83,7 +83,7 @@ html:focus-within {
 /* Usually helps you avoid double scroll bar problem */
 html,
 body {
-  height: 100%;
+  min-height: 100%; /* change height to min-height this will fix the hero image sticky to the top when scrolling problem */
   overflow-x: hidden; /* this is to fix the sales-points overflow problem for the background image */
 }
 
