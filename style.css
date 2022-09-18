@@ -290,6 +290,10 @@ p[data-width='wide'] {
   grid-area: logo;
 }
 
+.primary-footer__wrapper > * {
+  margin-inline: auto;
+}
+
 .primary-footer__copyright {
   grid-area: copyright;
   opacity: 0.7;
@@ -310,13 +314,16 @@ input:where([type='text'], [type='email']) {
   border-radius: 100vw;
   border: 0;
   padding: var(--size-300) var(--size-500);
-  min-width: 14rem;
+  width: max(100%, 14rem);
 }
 
 @media (min-width: 47em) {
   .primary-footer__wrapper {
     grid-template-areas: 'logo nav form' 'social nav copyright';
-    grid-template-columns: min-content 1fr min-content;
+    grid-template-columns: min-content 1fr auto; /* we don't want min-content for copyright, otherwise it can be strink into a circle when there is not space */
+  }
+  .primary-footer__wrapper > * {
+    margin-inline: 0;
   }
   .primary-footer__copyright {
     text-align: right;
